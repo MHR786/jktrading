@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="w-full overflow-hidden">
       {/* Hero Section */}
-      <section className="relative h-[90vh] min-h-[600px] flex items-center">
+      <section className="relative h-[90vh] min-h-150 flex items-center">
         <div className="absolute inset-0 bg-primary/90 z-10" />
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
@@ -24,7 +24,7 @@ export default function Home() {
             <ScrollReveal direction="up" delay={0.1}>
               <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6 tracking-tight">
                 Sourced in Japan.<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/60">
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-white to-white/60">
                   Delivered Worldwide.
                 </span>
               </h1>
@@ -144,7 +144,7 @@ export default function Home() {
             ].map((prod, i) => (
               <ScrollReveal key={i} delay={i * 0.1} direction="up">
                 <Link href="/products" className="group block bg-card rounded-sm border border-border overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <div className="aspect-[4/3] bg-primary relative overflow-hidden">
+                  <div className="aspect-4/3 bg-primary relative overflow-hidden">
                     <img src={prod.img} alt={prod.title} className="object-cover w-full h-full opacity-90 group-hover:scale-105 transition-transform duration-500" />
                   </div>
                   <div className="p-6">
