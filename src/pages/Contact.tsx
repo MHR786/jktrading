@@ -52,8 +52,8 @@ export default function Contact() {
                     <div>
                       <h4 className="font-bold text-foreground">Address</h4>
                       <p className="text-muted-foreground mt-1">
-                        76 Sato Nishitoriguchi, Kamo-cho, Kizugawa City, Kyoto
-                        Prefecture, 619-115, Japan
+                        Kyto fu kizugawa shi sato Nishitoriguchi 76 cosmo hights
+                        103 Pstal code 619-1151
                       </p>
                     </div>
                   </div>
