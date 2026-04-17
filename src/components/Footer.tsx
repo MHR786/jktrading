@@ -128,6 +128,14 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-3">
+                <span className="text-sm  font-bold text-[#BF3a2b] ">
+                  TEL/FAX:
+                </span>
+                <span className="text-sm text-primary-foreground/70">
+                  0774-79-3278
+                </span>
+              </li>
+              <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent shrink-0" />
                 <span className="text-sm text-primary-foreground/70">
                   info@jktrading.jp
